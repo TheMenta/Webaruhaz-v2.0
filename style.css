@@ -1,0 +1,99 @@
+main{
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+    background-color: rgb(167, 151, 151);
+}
+ul li{
+
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+ul{
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+section{
+    margin: auto;
+    padding: 10px;
+
+}
+ul li a:visited{
+    color: rgb(36, 31, 31);
+    font-weight: bold;
+}
+ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.card{
+    margin: 0;
+    padding: 0;;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+      max-width: none;
+    }
+    * {
+      box-sizing: content-box;
+    }
+    .container {
+      max-width: 200px;
+    }
+    .tbody{
+        margin: 2px;
+        max-width: 150px;
+      }
+    .tartalom-card{
+      margin: 2px;
+      max-width: 150px;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 400px) and (max-width: 600px) {
+    main {
+      max-width: none;
+    }
+    * {
+      box-sizing: content-box;
+    }
+    .container {
+      max-width: 250px;
+    }
+    .tbody{
+        margin: 5px;
+        max-width: 250px;
+      }
+    .tartalom-card{
+      margin: 5px;
+      max-width: 250px;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 600px) {
+    main {
+      max-width: 1000px;
+    }
+    .container {
+      max-width: 600px;
+    }
+    .tbody{
+        margin: 10px;
+        max-width: 400px;
+      }
+    .tartalom-card{
+      margin: 10px;
+      max-width: 400px;
+    }
+  }
+  
